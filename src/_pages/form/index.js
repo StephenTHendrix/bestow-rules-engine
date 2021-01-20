@@ -60,7 +60,7 @@ const Result = styled.div`
   width: 200px;
   color: ${({ isQualififed }) => (isQualififed ? 'white' : colors.yellow)};
   min-height: 25px;
-  background-color: ${({ clicked }) => clicked && colors.table};
+  background-color: ${({ clicked }) => clicked && colors.pink};
   margin-top: 10px;
   text-align: center;
 `;

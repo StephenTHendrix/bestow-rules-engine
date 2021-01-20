@@ -16,7 +16,7 @@ const Content = styled.div`
 `;
 
 const Button = styled(Link)`
-  background-color: ${colors.table};
+  background-color: ${colors.pink};
   color: white;
   height: 75px;
   width: 150px;
