@@ -13,6 +13,10 @@ const Content = styled.div`
   color: white;
   height: 500px;
   width: 500px;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 50px;
+  }
 `;
 
 const Text = styled.div`
@@ -84,7 +88,6 @@ export const Form = () => {
   };
 
   return (
-    // <Container>
     <>
       <Content>
         <Text>Enter your information to see if you&apos;re qualified!</Text>
@@ -118,7 +121,6 @@ export const Form = () => {
             ? "Congratulations! You're qualififed!"
             : "We're sorry, but you don't seem to meet the qualifications.")}
       </Result>
-      {/* </Container> */}
     </>
   );
 };
