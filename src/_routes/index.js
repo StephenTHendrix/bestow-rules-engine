@@ -3,7 +3,7 @@ import {
   Switch,
   Redirect,
   Route,
-  HashBrowserRouter as Router,
+  HashRouter as Router,
 } from 'react-router-dom';
 import styled from 'styled-components';
 

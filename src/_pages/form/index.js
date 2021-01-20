@@ -90,7 +90,7 @@ export const Form = () => {
         <Text>Enter your information to see if you&apos;re qualified!</Text>
         <InputContainer>
           <StyledInput
-            placeholder="State"
+            placeholder={'State ("TX")'}
             value={state}
             onChange={(event) => setState(event.target.value)}
           />
@@ -98,7 +98,7 @@ export const Form = () => {
             {state && !validState && 'Please use a valid state ("TX")'}
           </ErrorText>
           <StyledInput
-            placeholder="Birthday"
+            placeholder="Birthday (MM/DD/YYYY)"
             value={birthday}
             onChange={(event) => setBirthday(event.target.value)}
           />
