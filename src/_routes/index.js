@@ -3,7 +3,7 @@ import {
   Switch,
   Redirect,
   Route,
-  BrowserRouter as Router,
+  HashBrowserRouter as Router,
 } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -27,7 +27,7 @@ export const Routes = () => {
   return (
     <>
       <GlobalStyles />
-      <Router>
+      <Router basename="/">
         <Navbar />
         <Container>
           <Switch>
